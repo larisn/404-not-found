@@ -2,8 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
+@import url(reset.css);
+
 @media screen and (min-width: 800px) {
-    
+
 
 :root {
     --cor__h1__header: #333333;
