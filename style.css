@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root {
+    --cor__h1__header: #333333;
+    --cor__paragrafo: #4F4F4F;
+    --cor__footer: #BDBDBD;
+
+    --fonte__principal: 'Space Mono', sans-serif;
+    --fonte__footer: 'Montserrat', sans-serif;
+    --font__header: 'Inconsolata', sans-serif;
+}
+
+body {
+    width: 420px;
+    height: 90vh;
+}
+
+header {
+    font-family: var(--font__header);
+    font-weight: bold;
+    color: var(--cor__h1__header);
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: -2px;
+    margin: 20px 30px;   
+}
+
+div#conteudo > img {
+    width: 270px;
+    height: 230px;
+    display: block;
+    margin: 50px 70px;
+}
+
+div#conteudo > div.texto > h1 {
+    font-family: var(--fonte__principal);
+    font-size: 48px;
+    color: var(--cor__h1__header);
+    margin: 70px 25px 0px;
+}
+
+div#conteudo > div.texto > div.paragrafo {
+    font-family: var(--fonte__principal);
+    font-size: 18px;
+    color: var(--cor__paragrafo);
+    width: 328px;
+    margin: 30px 22px;
+}
+
+button {
+    font-family: var(--fonte__principal);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    margin: 30px 23px;
+    padding: 25px 47px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+    font-family: var(--fonte__footer);
+    font-size: 14px;
+    color: var(--cor__footer);
+}
+
+a {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-family: var(--fonte__footer);
+    font-size: 14px;
+    text-decoration: underline;
+    color: var(--cor__footer);
+    cursor: auto;
+    font-weight: bold;
+}
